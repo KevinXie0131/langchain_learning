@@ -7,3 +7,8 @@ conda remove --name myenv --all
 conda env list
 conda deactivate
 conda env remove -n myenv
+
+conda install langchain
+conda list
+
+conda config --add channels conda-forge
