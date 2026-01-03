@@ -9,6 +9,19 @@ conda deactivate
 conda env remove -n myenv
 
 conda install langchain
+conda install langchain==0.3.7
+conda install -c conda-forge langchain==0.3.7
+conda update langchain
+conda uninstall langchain
 conda list
 
 conda config --add channels conda-forge
+
+
+
+pip install langchain
+pip install langchain==0.3.7
+pip install --upgrade langchain
+pip uninstall langchain
+pip list
+pip install ./local.whl
